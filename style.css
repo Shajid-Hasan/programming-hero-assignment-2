@@ -1,38 +1,69 @@
 
-*{
-    background-color: #1B1B1B;
+/* Font Family Miama */
+
+@font-face {
+    font-family: 'Inter';
+    src: url();
 }
+
+@font-face {
+    font-family: 'Miama';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Miama'), 
+    url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bg-color{
+    background-image: linear-gradient(to right, #111212, #181c1d, #1f262a, #293037, #353944, #353944, #353944, #353944, #293037, #1f262a, #181c1d, #111212);
+}
+
 
 .logo{
     color: #E6533C;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: 20px;
+    margin-left: 145px;
+    /* border: 1px solid red; */
 }
 
 .display-flex{
     display: flex;
 }
+
 .navbar{
     align-items: center;
     justify-content: space-between;
     padding: 0 120px 0 120px;
-    border: 1px solid red;
-    
+    /* border: 1px solid red; */
 }
 
 .nav-item{
     list-style: none;
-    margin-right: 35px;
+    margin-right: 65px;
     font-size: 17px;
     padding: 5px;
-    
-
+    /* border: 1px solid red; */
 }
 
 .nav-link{
     text-decoration: none;
     font-weight: 500;
     color: white;
+
+}
+
+.nav-links{
+    border: 0.5px solid grey;
+    padding: 7px 5px 7px 5px;
+    border-radius: 25px;
+    margin-top: 20px;
 }
 
 #home-color{
@@ -43,17 +74,55 @@
 
 
 .banner{
-    border: 1px solid red;
-    margin-top: 10px;
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    width: 500px;
+    margin-left: 255px;
+    height: 400px;
 }
+
 .title-font{
-    width: 350px;
-    border: 1px solid yellow;
-    font-size: 55px;
+    width: 450px;
+    /* border: 1px solid yellow; */
+    font-size: 60px;
     color: #FFFF;
 }
 
+.font{
+    font-family: 'Miama';
+    font-size: 3.5rem;
+    font-weight: 800;
+}
 
+.title-description{
+    color: #808080;
+    width: 400px;
+    margin-top: 15px;
+}
 
+.btn1{
+    height: 30px;
+    width: 150px;
+    padding: 16px, 40px, 16px, 40px;
+    background-color: #E6533C;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+.btn2{
+    height: 30px;
+    width: 150px;
+    padding: 16px, 40px, 16px, 40px;
+    background-color: #101010;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
 
+.image1{
+    margin-left: 10%;
+    
+}
 
