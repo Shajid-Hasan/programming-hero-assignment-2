@@ -210,7 +210,7 @@
     
 }
 
-#baggraund{
+#background{
     background-color: #101010;
     
 }
@@ -322,4 +322,55 @@
     font-size: 15px;
     text-align: center;
     margin-left: 5px;
+}
+
+.container3{
+    height: 170px;
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 10%;
+    padding: 30px;
+    align-items: center;
+    background-color: #222222;
+    /* border: 1px solid rgb(88, 26, 26); */
+}
+
+.extra-mile{
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+}
+
+.title5{
+    color: #FAFAFA;
+    /* margin-bottom: 100px; */
+    /* border: 1px solid red; */
+    width: 190px;
+    font-size: 2rem;
+
+}
+
+.description5{
+    width: 23rem;
+    color: #808080;
+    margin-top: 10px;
+    /* margin-bottom: -200px; */
+}
+
+.btn5{
+    background-color: #E6533C;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.run-image{
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 5px;
+    /* scale: 1.0; */
+    border-radius: 10px;
+    
 }
