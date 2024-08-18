@@ -17,6 +17,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     /* max-width: 14300px; */
 }
 
@@ -369,14 +370,14 @@
 }
 
 .run-image{
-    height: 350px;
+    height: 300px;
     width: 350px;
     margin-top: 10px;
     margin-right: 2px;
     border-radius: 10px;
     object-fit: none;
     /* scale: .5; */
-    object-position: 67% 34%;
+    object-position: 66% 33%;
 }
 
 /* 4th part */
@@ -399,39 +400,52 @@
 }
 
 .excercise-img{
-    /* height: 200px;
-    width: 250px; */
+    /* height: 250px; */
+    width: 520px;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    gap: 1px;
-    margin-left: 15%;
+    /* column-gap: 5px;
+    row-gap: 5px; */
+    margin-left: 35%;
+    /* border: 1px solid red; */
+    /* padding: 10px; */
 }
+
+
 
 .ex-img1{
     height: 100px;
     width: 150px;
+    background-color: linear-gradient(rgb(11, 189, 234));
 }
 
 .ex-img2{
     height: 100px;
-    width: 150px;
+    width: 200px;
+    margin-left: -28px;
+    /* background-color: linen-gradient(rgb(rgb(202, 104, 80)); */
 }
 
 .ex-img3{
     height: 100px;
-    width: 150px;
+    width: 160px;
 }
 .ex-img4{
     height: 100px;
-    width: 150px;
+    width: 180px;
+    margin-top: -4px;
 }
 .ex-img5{
     height: 100px;
-    width: 150px;
+    width: 170px;
+    margin-top: -3px;
 }
 .ex-img6{
     height: 100px;
-    width: 150px;
+    width: 200px;
+    margin-left: -40px;
+    margin-top: -3px;
+
 }
 
 .container5{
